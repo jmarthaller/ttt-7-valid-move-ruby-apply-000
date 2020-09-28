@@ -16,5 +16,7 @@ def valid_move?(board, index)
   
   def board_taken?(num)
     if num.between?(0, 8) == true
+      return true
+    end
   
 end
