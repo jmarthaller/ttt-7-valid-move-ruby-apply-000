@@ -14,6 +14,7 @@ def valid_move?(board, index)
     end
   end
   
-  def board_taken
+  def board_taken?(num)
+    if 
   
 end
