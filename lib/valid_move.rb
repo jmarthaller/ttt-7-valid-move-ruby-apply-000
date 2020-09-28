@@ -22,7 +22,7 @@ def valid_move?(board, index)
     end
   end
   
-  if (position_taken?(board, index)) == false && (spot_taken?(index)) == true
+  if (position_taken?(board, index)) == false && (spot_taken?(num)) == true
     return true
   else 
     return false
